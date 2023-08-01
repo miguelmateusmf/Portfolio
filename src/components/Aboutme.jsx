@@ -1,5 +1,5 @@
 import React from "react";
-import ImgPerfil from "../images/transferir.png";
+import ImgPerfil from "../images/perfil.jpg";
 import ImgESN from "../images/esn_star_black.png";
 import ImgFD from "../images/coding.png";
 import ImgSports from "../images/running.png";
@@ -15,7 +15,11 @@ export default function Aboutme() {
             experiences that leave a lasting impression.
           </div>
         </div>
-        <img src={ImgPerfil} alt="profile" className="inner-profile"></img>
+        <img
+          src={ImgPerfil}
+          alt="profile"
+          className="inner-profile profilephoto"
+        ></img>
       </div>
 
       <div className="second-profile">

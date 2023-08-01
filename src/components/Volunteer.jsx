@@ -1,5 +1,8 @@
 import React from "react";
 import ImgESN from "../images/esn_logo_big.png";
+import ImgESNCluj from "../images/cmcluj.jpg";
+import ImgESNToulouse from "../images/sweptl.jpg";
+import ImgESNCb from "../images/pncb.jpg";
 
 export default function Loading() {
   return (
@@ -23,14 +26,14 @@ export default function Loading() {
               international students every year.
             </p>
           </div>
-          <img src={ImgESN} alt="profile" height={121.88}></img>
+          <img src={ImgESNCluj} alt="profile" width={300}></img>
         </div>
         <div className="second-intro">
           <img
-            src={ImgESN}
+            src={ImgESNToulouse}
             alt="profile"
             className="desktopOnly"
-            height={121.88}
+            width={300}
           ></img>
           <div className="second-aid">
             <h1 className="para-border">ESN's Mission and Vision</h1>
@@ -45,10 +48,10 @@ export default function Loading() {
             </p>
           </div>
           <img
-            src={ImgESN}
+            src={ImgESNToulouse}
             alt="profile"
             className="mobileOnly"
-            height={121.88}
+            width={300}
           ></img>
         </div>
         <div className="second-intro">
@@ -63,7 +66,7 @@ export default function Loading() {
               call myself an ESNer.
             </p>
           </div>
-          <img src={ImgESN} alt="profile" height={121.88}></img>
+          <img src={ImgESNCb} alt="profile" width={300}></img>
         </div>
       </div>
     </div>

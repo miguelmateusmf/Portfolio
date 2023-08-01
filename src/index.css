@@ -167,6 +167,12 @@ body {
   vertical-align: middle;
 }
 
+.profilephoto {
+  max-width: 300px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
 .second-profile {
   display: flex;
   align-items: flex-start;

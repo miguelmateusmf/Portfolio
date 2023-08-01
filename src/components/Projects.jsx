@@ -9,17 +9,34 @@ export default function Projects() {
       id: 1,
       title: "Github Battle",
       description:
-        "the project is about a lot of stuff this is for testing only",
-      projectLink: "project",
-      githubLink: "github",
+        "This was the first project I developed using React. It was great to get a grasp on how the framework works and how I can develop projects with React. In this project you can see what the top repositories for 6 different languages, and you can 'battle' different GitHub user profile to see who has the higher score.",
+      projectLink: "https://githubbattle.miguelfranganito.com/",
+      githubLink: "https://github.com/miguelmateusmf/Github-Battle",
     },
     {
       id: 2,
-      title: "NodeJS server",
+      title: "NodeJS Server",
       description:
-        "the project is about a lot of stuff this is for testing only",
-      projectLink: "project",
-      githubLink: "github",
+        "My goal with this project was to start to understand how I can use NodeJS, and I was able to develop a server. In the near future I have plans to develop an API using NodeJS!",
+      projectLink: "",
+      githubLink: "https://github.com/miguelmateusmf/NodeJS-Server-Example",
+    },
+    {
+      id: 3,
+      title: "Portfolio",
+      description:
+        "This is the project you're seeing right now! Where you get to know a bit more about me.",
+      projectLink: "https://www.miguelfranganito.com/",
+      githubLink: "https://github.com/miguelmateusmf/Portfolio",
+    },
+    {
+      id: 4,
+      title: "Github Battle - Version 2",
+      description:
+        "As you can see by the title this is another version of Github Battle. The difference is in how the components were developed. I started by learning class components, but soon after I learned function components and how to develop React projects with Hooks. This is Github Battle but developed with function components and Hooks, my second project.",
+      projectLink: "",
+      githubLink:
+        "https://github.com/miguelmateusmf/Github-Battle-Hooks-version",
     },
   ]);
 
@@ -39,9 +56,13 @@ export default function Projects() {
                   <a aria-label="github" href={post.githubLink}>
                     <button className="button-projects">go to github</button>
                   </a>
-                  <a aria-label="project" href={post.projectLink}>
-                    <button className="button-projects">go to project</button>
-                  </a>
+                  {post.projectLink !== "" ? (
+                    <a aria-label="project" href={post.projectLink}>
+                      <button className="button-projects">go to project</button>
+                    </a>
+                  ) : (
+                    ""
+                  )}
                 </div>
               </div>
             ) : (
