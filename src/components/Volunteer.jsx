@@ -64,13 +64,13 @@ export default function Loading() {
             <p className="size para-border">
               In ESN I was able to develop a lot of different skills. While
               working in distinct environments and with various goals I improved
-              my communication, teamwork, and problem-solving skills, and the
-              way I organize my work. I also learned how to manage a team and
-              resolve conflicts. ESN has been a new way for me to connect with
-              people. This has been a great experience, where I'm constantly
-              learning and improving the way I work. I believe the way I grow in
-              ESN is extremely beneficial to me and it positively impacts my
-              career.
+              my communication, teamwork, problem-solving skills, writing, and
+              the way I organize my work. I also learned how to manage a team
+              and resolve conflicts. ESN has been a new way for me to connect
+              with people. This has been a great experience, where I'm
+              constantly learning and improving the way I work. I believe the
+              way I grow in ESN is extremely beneficial to me and it positively
+              impacts my career.
             </p>
           </div>
           <img src={ImgESNCb} alt="profile" width={300}></img>
