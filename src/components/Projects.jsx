@@ -10,6 +10,7 @@ export default function Projects() {
       title: "Github Battle",
       description:
         "This was the first project I developed using React. It was great to get a grasp on how the framework works and how I can develop projects with React. In this project you can see what the top repositories for 6 different languages, and you can 'battle' different GitHub user profile to see who has the higher score.",
+      tech: "JavaScript, HTML, CSS, React",
       projectLink: "https://githubbattle.miguelfranganito.com/",
       githubLink: "https://github.com/miguelmateusmf/Github-Battle",
     },
@@ -18,6 +19,7 @@ export default function Projects() {
       title: "NodeJS Server",
       description:
         "My goal with this project was to start to understand how I can use NodeJS, and I was able to develop a server. In the near future I have plans to develop an API using NodeJS!",
+      tech: "TypeScript, HTML, Node.js",
       projectLink: "",
       githubLink: "https://github.com/miguelmateusmf/NodeJS-Server-Example",
     },
@@ -26,6 +28,7 @@ export default function Projects() {
       title: "Portfolio",
       description:
         "This is the project you're seeing right now! Where you get to know a bit more about me.",
+      tech: "JavaScript, HTML, CSS, React",
       projectLink: "https://www.miguelfranganito.com/",
       githubLink: "https://github.com/miguelmateusmf/Portfolio",
     },
@@ -34,6 +37,7 @@ export default function Projects() {
       title: "Github Battle - Version 2",
       description:
         "As you can see by the title this is another version of Github Battle. The difference is in how the components were developed. I started by learning class components, but soon after I learned function components and how to develop React projects with Hooks. This is Github Battle but developed with function components and Hooks, my second project.",
+      tech: "JavaScript, HTML, CSS, React",
       projectLink: "",
       githubLink:
         "https://github.com/miguelmateusmf/Github-Battle-Hooks-version",
@@ -52,6 +56,7 @@ export default function Projects() {
             {current === post.id ? (
               <div>
                 <p>{post.description}</p>
+                <p>Technologies: {post.tech}</p>
                 <div className="post-entry-button">
                   <a aria-label="github" href={post.githubLink}>
                     <button className="button-projects">go to github</button>
@@ -66,7 +71,7 @@ export default function Projects() {
                 </div>
               </div>
             ) : (
-              <p>{post.description.substring(0, 10)}...</p>
+              <p>{post.description.substring(0, 100)}...</p>
             )}
           </div>
           <div className="post-entry-button">

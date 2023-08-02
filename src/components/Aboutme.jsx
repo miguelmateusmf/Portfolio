@@ -48,8 +48,8 @@ export default function Aboutme() {
           <p className="size para-border">
             Throught my life I allways practiced sports and they have taught a
             lot. I learned how to be consistent, work has a team, and to set
-            long term goals. I practiced basketball, badminton and track and
-            field which is my all time favorite.
+            long term goals. I practiced basketball, badminton and athletics
+            which is my all time favorite.
           </p>
         </div>
       </div>

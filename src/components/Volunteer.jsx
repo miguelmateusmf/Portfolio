@@ -36,15 +36,19 @@ export default function Loading() {
             width={300}
           ></img>
           <div className="second-aid">
-            <h1 className="para-border">ESN's Mission and Vision</h1>
+            <h1 className="para-border">My experience</h1>
             <p className="size para-border">
-              Enrichment of society through international students.<br></br>
-              <br></br>
-              By 2025, ESN will be the global network of the Erasmus Generation,
-              committed to improving international education and providing
-              self-development opportunities to two million young people,
-              fostering intercultural understanding and creating positive change
-              in society.
+              In my first year, I participated in the organization of local
+              events for the Erasmus students in Castelo Branco, went to several
+              training and statutory events and I joined the team that made EGM
+              Portugal 2022 - the first edition of EGM, an event where we
+              gathered over 700 participants. In my second year, I decided to
+              challenge myself further and thus I became my section's Events
+              Manager. As an Events Manager, I was responsible for all local
+              events happening in Castelo Branco, and by leading a team of 7
+              people we managed to organize 20 local events throughout the year,
+              for 100+ Erasmus students. As my last challenge of the mandate, I
+              was the Main Organizer of a national event in Castelo Branco.
             </p>
           </div>
           <img
@@ -56,14 +60,17 @@ export default function Loading() {
         </div>
         <div className="second-intro">
           <div className="second-aid">
-            <h1 className="para-border">My experience</h1>
+            <h1 className="para-border">How does it influence my work life</h1>
             <p className="size para-border">
-              ESN has been a new way for me to connect with people. Through
-              being part of it, I've had the opportunity to meet a lot of
-              different people from different backgrounds and got the chance to
-              improve people's mobility experience. I learned new ways to work,
-              communicate and overall it made me grow a lot. I'm very happy to
-              call myself an ESNer.
+              In ESN I was able to develop a lot of different skills. While
+              working in distinct environments and with various goals I improved
+              my communication, teamwork, and problem-solving skills, and the
+              way I organize my work. I also learned how to manage a team and
+              resolve conflicts. ESN has been a new way for me to connect with
+              people. This has been a great experience, where I'm constantly
+              learning and improving the way I work. I believe the way I grow in
+              ESN is extremely beneficial to me and it positively impacts my
+              career.
             </p>
           </div>
           <img src={ImgESNCb} alt="profile" width={300}></img>
