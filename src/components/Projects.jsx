@@ -34,6 +34,15 @@ export default function Projects() {
     },
     {
       id: 4,
+      title: "To Do List",
+      description:
+        "This was my first project completed with Vue. I'm still learning how to develop using the framework and so far I've gathered a good base to continue exploring the framework. As the name shows I decided to start by developing a TODO App",
+      tech: "JavaScript, HTML, CSS, Vue",
+      projectLink: "https://todolist.miguelfranganito.com/",
+      githubLink: "https://github.com/miguelmateusmf/To-Do-List",
+    },
+    {
+      id: 5,
       title: "Github Battle - Version 2",
       description:
         "As you can see by the title this is another version of Github Battle. The difference is in how the components were developed. I started by learning class components, but soon after I learned function components and how to develop React projects with Hooks. This is Github Battle but developed with function components and Hooks, my second project.",
